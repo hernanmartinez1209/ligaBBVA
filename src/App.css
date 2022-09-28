@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap ;
+  gap: 60px;
+  background-color: #256D85;
+  font-family: sans-serif;
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/copy_of_001_laliga_comp_651233fb.png?region=0,0,3840,2160");
+  background-size: cover;
+}
+.app__img{
+  width: 100%;
+  text-align: center;
+}
+.app__img h1 ,h2{
+  margin-top: 40px;
+  color: #fff;
+}
+.App .img{
+  text-align: center;
+  display: inline;
+  margin-top: 50px;
+  width: 30%;
+  height: 300px;
+  border-radius: 20px;
+}
+.cart{
+ background-image: url("https://img.asmedia.epimg.net/resizer/pwQHGJ4iueEymH6Afpx7yR84U5o=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/IHOKCL664FD4NBZEEFZGXFAP2Y.jpg");
+ background-size: cover;
+ color: white;
+ font-size: 20px;
+ text-align: center;
+ width: 350px;
+ margin-top: 80px;
+ border-radius: 10px;
+ 
+ 
+}
+.cart:hover{
+  border: solid 3px #fff;
+}
+.cart ul{
+  list-style: none;
+  
+}
+.entrenador{
+  margin-bottom: 30px;
+  list-style: none;
+}
+footer{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  background-color: #256D85;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 26px;
+  color: #fff;
+}
